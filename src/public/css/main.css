@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Loki";
+    src: url('css/fonts/Loki-Regular-Brush-Font/Loki-Regular.otf');
+}
+html{
+    background-color: #efebe2;
+    font-family: 'Computer Modern Serif';
+}
+h1{
+    color:#ab1d79 ;
+    font-family: temeraire, serif;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 0.5;
+}
+h1.one{
+    font-size: 1000%;
+}
+ht.second{
+    font-size: 100%;
+}
+h1.two{
+    font-size: 680%;
+}
+@media (max-width:1164px){
+    span#lighten{
+        color: #ab1d79c0;
+    }
+}
+div.menu{
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+p.menu{
+    display: inline-block;
+    font-size: 350%;
+    margin-top: 0;
+    margin-bottom:0 ;
+}
+hr.menu{
+    display: inline-block;
+    width: 35%;
+    height: 3px; 
+    background: black; 
+}
+hr#one{
+    width: 17%;
+}
+hr#two{
+    width: 53%;
+}
