@@ -140,3 +140,43 @@ p.menu a:hover{
     color: grey;
     text-decoration: none;
 }
+h2.gallery{
+    width: 5%;
+    display: inline-block;
+    vertical-align: middle;
+}
+h2#g{
+    font-size: 600%;
+}
+h2#allery{
+    margin-top: 2%;
+    line-height: 0.75;
+    font-size: 300%;
+}
+div.gallery{
+    color: #01949a;
+}
+div.team{
+    color: #849bff;
+    padding-top: 2.5%;
+    }
+div.teamTtl{
+    text-align: left;
+}
+h2.team{
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0;
+}
+h2#the{
+    font-size: 175%;
+    transform: rotate(-90deg);
+    padding: 0;
+    margin: 0;
+}
+h2#team{
+    font-size: 525%;
+    padding: 0;
+}
