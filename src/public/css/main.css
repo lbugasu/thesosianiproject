@@ -5,6 +5,8 @@
 html{
     background-color: #efebe2;
     font-family: 'Computer Modern Serif';
+    cursor: url('/css/images/cursor.png') 20 20,  pointer;
+
 }
 h1{
     color:#ab1d79 ;
@@ -13,10 +15,16 @@ h1{
     font-weight: lighter;
     line-height: 0.5;
 }
+h2{
+    font-family: temeraire, serif;
+    font-weight: lighter;
+    line-height: 1;
+    margin: 1%;
+}
 h1.one{
     font-size: 1000%;
 }
-ht.second{
+h1.second{
     font-size: 100%;
 }
 h1.two{
@@ -49,4 +57,86 @@ hr#one{
 }
 hr#two{
     width: 53%;
+}
+div.story{
+    font-size: 150%;
+    color: #b88917;
+    text-align: justify;
+    margin: 5%;
+}
+div.story p{
+    margin:5%;
+}
+
+div.block p.block{
+    margin: 2.5%;
+}
+p.blurb{
+    font-size: 150%;
+}
+h2{
+    font-size: 400%;
+    text-align: center;
+    margin: 0;
+}
+div.left{
+    width: 40%;
+    display: inline-block;
+}
+div.right{
+    width: 59.5%;
+    display: inline-block;
+}
+div.column{
+    width: 49.5%;
+    display: inline-block;
+}
+div.ten{
+    width: 10%;
+    font-size: 400%;
+    line-height: .5;
+    letter-spacing: 0;
+    display: inline-block;
+}
+div.ninety{
+    width: 87.5%;
+    display: inline-block;
+}
+div.timeline{
+    color: #db8780;
+}
+h2.timeline{
+    text-align: left;
+}
+a.showpic{
+    color: #b88917;
+    text-decoration: none;
+}
+a.showpic:hover{
+    color: #b88917;
+    text-decoration: underline;
+} 
+a#cece:hover{
+    color: #b88917;
+    cursor: url('/css/images/cece-promo.jpg') 32 32,  pointer;
+}
+a#gg:hover{
+    color: #b88917;
+    cursor: url('/css/images/ggsax-promo.jpg') 32 32,  pointer;
+}
+a#gabu:hover{
+    color: #b88917;
+    cursor: url('/css/images/gabu-promo.jpg') 32 32,  pointer;
+}
+a#philie:hover{
+    color: #b88917;
+    cursor: url('/css/images/philie-promo.jpg') 32 32,  pointer;
+}
+p.menu a{
+    color: black;
+    text-decoration: none;
+}
+p.menu a:hover{
+    color: grey;
+    text-decoration: none;
 }
