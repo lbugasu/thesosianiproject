@@ -103,6 +103,7 @@ div.ninety{
     display: inline-block;
 }
 div.timeline{
+    padding-top: 5%;
     color: #db8780;
 }
 h2.timeline{
@@ -175,8 +176,55 @@ h2#the{
     transform: rotate(-90deg);
     padding: 0;
     margin: 0;
-}
+    width: 5%;
+    }
 h2#team{
     font-size: 525%;
     padding: 0;
+}
+img.timeline{
+    width: 100%;
+}
+.within-col img{
+    width: 80%;
+    text-align: center;
+    padding: 5%;
+}
+iframe{
+    max-width: 100%;
+    display: inline-block;
+    padding: 0;
+}
+
+hr.story{
+    width: 60%;
+    height: 1.5px; 
+    background-color: #b88917;
+    margin-bottom: 5%;
+}
+
+figure.show{
+    display: inline-block;
+    width: 45%;
+    margin: 2%;
+}
+img.show{
+    width: 100%;
+}
+.right img{
+    width: 100%;
+}
+figure.speaker{
+    text-align: center;
+}
+img.speaker{
+    width: 70%;
+}
+figure.books{
+    width: 100%;
+    text-align: center;
+}
+img.books{
+    max-width: 60%;
+    
 }
