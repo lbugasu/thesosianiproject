@@ -289,12 +289,11 @@ div.footer{
     text-decoration: none;
     color: #99a966;
 }
-.footer p{
-    display: inline-block;
-}
+
 div.team{
     color: #849bff;
     margin: 2%;
+    text-align: center;
 }
 .teammembers{
     width: 45%;
