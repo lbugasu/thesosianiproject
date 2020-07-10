@@ -4,11 +4,12 @@
 
 ## Design🎨
 A static website to tell the story from conception to end. It took the form of a mini art project as well as learning experience.
-![Landing Image](resources/landing.png)
-<hr/>
+![Landing Image](resources/landing.png)<hr/>
+
+
 ![Another section](resources/story.png)
 
 ## Stack
-Node.js
-Experess
-HTML + CSS
+* Node.js
+* Experess
+* HTML + CSS
